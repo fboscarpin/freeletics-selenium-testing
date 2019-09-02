@@ -1,0 +1,262 @@
+[
+  {
+    "uri": "features/careers.feature",
+    "id": "careers-area",
+    "keyword": "Feature",
+    "name": "Careers area",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "careers-area;see-the-careers-area",
+        "keyword": "Scenario",
+        "name": "See the Careers area",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user opens the website Freeletics",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4979459179
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks on the footer link \"Careers\"",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191156285
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user sees the text \"25 open positions\" on the page",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1336931732
+            }
+          }
+        ]
+      },
+      {
+        "id": "careers-area;see-the-vacancies-ist",
+        "keyword": "Scenario",
+        "name": "See the Vacancies ist",
+        "description": "",
+        "line": 8,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user accessed the Careers area",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 875205134
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks on \"25 open positions\"",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 475175310
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user sees the text \"Unsolicited Application\" on the page",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44145485
+            }
+          }
+        ]
+      },
+      {
+        "id": "careers-area;see-the-qa-engineer-vacancy-page",
+        "keyword": "Scenario",
+        "name": "See the QA Engineer vacancy page",
+        "description": "",
+        "line": 13,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user accessed the Vacancies list",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 879897205
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks on \"QA Engineer (m/f/d)\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 487749058
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user sees the job title \"QA ENGINEER (M/F/D)\"",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54393142
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "the user sees the job location \"Munich\"",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39838108
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "the user sees \"9\" items in the Your Responsibilities section",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12906806
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "the user sees \"7\" items in the Your Profile section",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12398358
+            }
+          }
+        ]
+      },
+      {
+        "id": "careers-area;click-on-apply-now-on-the-qa-engineer-vacancy-page",
+        "keyword": "Scenario",
+        "name": "Click on Apply Now on the QA Engineer vacancy page",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "comments": [
+          {
+            "value": "#@CloseTest",
+            "line": 21
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user accessed the Vacancies list",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 393134630
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks on \"QA Engineer (m/f/d)\"",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 408262262
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "the user clicks on \"Apply now\"",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140295850
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "the user switches tabs",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6316743
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user sees the text \"Submit your application\" on the page",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/careers_step_definitions.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2404560751
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
