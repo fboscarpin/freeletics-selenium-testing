@@ -1,7 +1,9 @@
-source :rubygems
+# frozen_string_literal: true
 
-gem "cucumber"
-gem "selenium-webdriver"
-gem "report_builder"
-gem "rspec"
+source 'https://rubygems.org'
+
 gem 'appium_lib'
+gem 'cucumber'
+gem 'report_builder'
+gem 'rspec'
+gem 'selenium-webdriver'
