@@ -3,11 +3,11 @@ Feature: Careers area
 Scenario: See the Careers area
 Given the user opens the website Freeletics
 When the user clicks on the footer link "Careers"
-Then the user sees the text "25 open positions" on the page
+Then the user sees the text "24 open positions" on the page
 
 Scenario: See the Vacancies ist
 Given the user accessed the Careers area
-When the user clicks on "25 open positions"
+When the user clicks on "24 open positions"
 Then the user sees the text "Unsolicited Application" on the page
 
 Scenario: See the QA Engineer vacancy page
